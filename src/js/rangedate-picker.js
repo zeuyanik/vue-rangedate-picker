@@ -257,9 +257,9 @@ export default {
       if (!date) {
         return null
       }
-      console.log("date " + date);
-      console.log("format " + format);
-      console.log("fecha.format(date, format) " + fecha.format(date, format));
+      console.log('date ' + date)
+      console.log('format ' + format)
+      console.log('fecha.format(date, format) ' + fecha.format(date, format))
       return fecha.format(date, format)
     },
     getDayIndexInMonth: function (r, i, startMonthDay) {
